@@ -1,10 +1,14 @@
-import bannerImg from "../../assets/images/banner.jpg";
-import styles from "./banner.module.css";
+import React from 'react';
+import styles from './banner.module.css';
 
 export function Banner() {
   return (
     <div className={styles.banner}>
-      <img src={bannerImg} alt="BannerImg" />
+      <div className={styles.bannerText}>
+        <span>სლოტები</span> 10 იანვარი - 12 მარტი
+      </div>
     </div>
   );
 }
+
+export default Banner;
