@@ -1,0 +1,7 @@
+.accordion-header {
+  display: flex;
+}
+
+.terms {
+  padding: 0 44px;
+}

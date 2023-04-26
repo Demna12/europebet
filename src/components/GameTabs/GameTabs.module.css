@@ -1,0 +1,144 @@
+.game-tabs {
+  padding: 0 43px;
+}
+
+.tabs-header {
+  color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  min-height: 77px;
+  width: 100%;
+  display: flex;
+  background-color: #2c3234;
+  justify-content: space-between;
+}
+
+.tab-header-item {
+  width: 31%;
+  position: relative;
+}
+
+.tab-header-item:global.active::before {
+  opacity: 1;
+}
+
+.tab-header-item::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: calc(100% + 10px);
+  background-color: #ef5a21;
+  opacity: 0;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  z-index: 0;
+}
+
+.tab-header-item-in {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+
+.title-holder {
+  padding: 24px 0 32px;
+  color: #fff;
+}
+
+.title-holder h3 {
+  margin: 0 0 14px;
+  font-size: 20px;
+}
+
+.tabContainer {
+  height: 100%;
+  background-color: #171718;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #2c3234;
+  margin: auto 45px 30px 45px;
+  border-width: 0px 4px 4px 4px;
+  overflow: hidden;
+}
+
+.mainHeader {
+  height: 70px;
+  background-color: #2c3234;
+  text-align: center;
+  font-family: 'BPG Excelsior Caps', serif;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.divider {
+  width: 250px;
+  height: 5px;
+  background-color: rgb(239, 90, 33);
+  box-shadow: 0 4px 8px 0 rgba(239, 90, 33, 0.7);
+  margin: 0 auto;
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+  /* position: relative; */
+}
+
+.description {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+.description span {
+  text-transform: uppercase;
+}
+
+.containerOne {
+  min-height: 455px;
+  background-color: #25292b;
+  border-radius: 10px;
+  position: relative;
+  margin: 30px 24px auto 24px;
+  padding: 69px 32px 32px 32px;
+  align-items: center;
+}
+.containerOneTitle {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 122px 30px 42px;
+  font-size: 12px;
+  color: #7d7d7dd5;
+}
+
+.containerOneItem {
+  background-color: #1e2122;
+  height: 56px;
+  width: 100%;
+  border-color: #2c3234;
+  border-width: 3px;
+  border-radius: 20px;
+  border-style: solid;
+  margin-bottom: 3px;
+}
+
+.numOne,
+.numTwo,
+.numThree,
+.numFour,
+.numFive,
+.numSix {
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 20px;
+  border-radius: 50%;
+  padding: 5.7px 11px;
+  background: rgba(44, 50, 52, 1);
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}

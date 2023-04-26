@@ -1,0 +1,11 @@
+.sticky {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: #1C1D1E;
+    position: static;
+    bottom: 0;
+    left: 0;
+    position: sticky;
+    z-index: 99;
+  }
