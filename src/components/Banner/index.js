@@ -6,6 +6,7 @@ export function Banner() {
     <div className={styles.banner}>
       <div className={styles.bannerText}>
         <span>სლოტები</span> 10 იანვარი - 12 მარტი
+        <button className={styles.closeBtn}></button>
       </div>
     </div>
   );

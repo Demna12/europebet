@@ -18,12 +18,13 @@ body {
   max-width: 970px;
   padding: 0 15px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
   z-index: 9;
   height: 100%;
 }
 
 .main-content {
+  position: relative;
   border-radius: 10px;
   overflow: hidden;
   background-color: #1c1d1e;
@@ -47,5 +48,3 @@ body {
   left: 0;
   top: 0;
 }
-
-
